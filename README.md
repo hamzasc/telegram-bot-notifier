@@ -14,7 +14,7 @@ on:
   delete:
   
     .......
-    uses: m9hmood/github-telegram-notifyer@master
+    uses: m9hmood/telegram-bot-notifier@master
     with:
         token: BotToken
         chat_id: ChatID
