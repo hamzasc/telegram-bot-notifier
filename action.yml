@@ -1,0 +1,12 @@
+name: 'Telegram Notifyer'
+description: 'Notify your group on telegram for any update on telegram'
+inputs:
+  token:  # id of input
+    description: 'Telegram bot token'
+    required: true
+  chat_id:  # id of input
+    description: 'Telegram chat_id'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'

@@ -1,0 +1,25 @@
+{
+  "name": "telegram-bot-notifier",
+  "version": "0.8.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m9hmood/Github-notifier.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m9hmood/Github-notifier/issues"
+  },
+  "homepage": "https://github.com/m9hmood/Github-notifier#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.3",
+    "@actions/github": "^2.1.1",
+    "node-fetch": "^2.6.0"
+  }
+}
