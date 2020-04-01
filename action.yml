@@ -1,4 +1,4 @@
-name: 'Telegram Notifyer'
+name: 'Telegram Notifier'
 description: 'Notify your group on telegram for any update on telegram'
 inputs:
   token:  # id of input

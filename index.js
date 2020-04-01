@@ -10,12 +10,12 @@ try {
   switch (context.eventName) {
     case "create":
       msg = `\xF0\x9F\x91\x8B
-      a Brunch with name <b>${context.payload.ref}</b> has been created! 
+      a Branch with name <b>${context.payload.ref}</b> has been created! 
       \xF0\x9F\x91\xA4 ${context.payload.sender.login}`;
       break;
     case "delete":
       msg = `\xF0\x9F\x91\x8B
-      brunch <b>${context.payload.ref}</b> has been deleted!  
+      Branch <b>${context.payload.ref}</b> has been deleted!  
       \xF0\x9F\x91\xA4 ${context.payload.sender.login}`;
       break;
     case "pull_request":
